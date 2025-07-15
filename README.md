@@ -7,14 +7,6 @@ Accurately predicting subject status from brain network data is a complex task t
 ## Reference
 Subirà-Cribillers, M., Solé-Casaramona, J., Lladós, J., Casas-Roma, J. (2025). **Graph Neural Networks for Multimodal Brain Connectivity Analysis in Multiple Sclerosis**. In: Brun, L., Carletti, V., Bougleux, S., Gaüzère, B. (eds) *Graph-Based Representations in Pattern Recognition*. GbRPR 2025. Lecture Notes in Computer Science, vol 15727. Springer, Cham. [https://doi.org/10.1007/978-3-031-94139-9_9](https://doi.org/10.1007/978-3-031-94139-9_9)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
-
 ## Installation
 1. Clone the repository:
     ```bash
