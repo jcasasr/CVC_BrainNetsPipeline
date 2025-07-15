@@ -14,7 +14,7 @@ Subirà-Cribillers, M., Solé-Casaramona, J., Lladós, J., Casas-Roma, J. (2025)
     ```
 2. Navigate to the project directory:
     ```bash
-    cd repository
+    cd CVC_BrainNetsPipeline
     ```
 3. Install dependencies:
     ```bash
