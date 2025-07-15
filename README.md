@@ -1,24 +1,11 @@
 # Computer Vision Center (CVC)
 ## Graph Neural Networks for Multimodal Brain Connectivity Analysis in Multiple Sclerosis
-### Internship Merlès Subirà i Jan Solé
 
-De moment el readme s'ha de fer. Afegeixo un exemple d'estructura bàsica de fitxer readme.
+## Abstract
+Accurately predicting subject status from brain network data is a complex task that requires advanced machine learning tech-niques. In this work, we propose a comprehensive methodology and pipeline for applying supervised graph learning models, specifically Graph Neural Networks, to this task using brain network information derived from diffusion tensor imaging, gray matter and resting-state func-tional MRI adjacency matrices. Our approach includes a graph pruning step to retain the most relevant edges while preserving crucial informa-tion, the generation of node features to enhance graph representations, the creation of synthetic data to balance the dataset and improve train-ing, and the design and training of GNN models for both multi-class and binary classification tasks. Experimental results in a cohort of peo-ple with multiple sclerosis and healthy volunteers demonstrate that our methodology effectively captures meaningful patterns in brain graphs, leading to improved classification performance.
 
-## Description
-Accurately predicting subject status from brain network data
-is a complex task that requires advanced machine learning techniques.
-In this work, we propose a comprehensive methodology and pipeline for
-applying supervised graph learning models, specifically Graph Neural
-Networks, to this task using brain network information derived from
-diffusion tensor imaging, gray matter and resting-state functional MRI
-adjacency matrices. 
-
-Our approach includes a graph pruning step to retain the most relevant edges while preserving crucial information, the
-generation of node embeddings to enhance graph representations, the
-creation of synthetic data to balance the dataset and improve training,
-and the design and training of GNN models for both multi-class and binary classification tasks. Experimental results in a cohort of people with
-multiple sclerosis and healthy volunteers demonstrate that our methodology effectively captures meaningful patterns in brain graphs, leading
-to improved classification performance.
+## Reference
+Subirà-Cribillers, M., Solé-Casaramona, J., Lladós, J., Casas-Roma, J. (2025). **Graph Neural Networks for Multimodal Brain Connectivity Analysis in Multiple Sclerosis**. In: Brun, L., Carletti, V., Bougleux, S., Gaüzère, B. (eds) *Graph-Based Representations in Pattern Recognition*. GbRPR 2025. Lecture Notes in Computer Science, vol 15727. Springer, Cham. [https://doi.org/10.1007/978-3-031-94139-9_9](https://doi.org/10.1007/978-3-031-94139-9_9)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -31,7 +18,7 @@ to improved classification performance.
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/jcasasr/CVC_BrainNetsPipeline
     ```
 2. Navigate to the project directory:
     ```bash
@@ -58,12 +45,3 @@ This script combines all the generated embeddings into a single dataset. The out
 
 ### `final_model.py`
 This script implements the final Graph Neural Network (GNN) model. It loads the preprocessed data, trains a GNN model using PyTorch Geometric, and evaluates the classification performance.
-
-
-## Usage
-Example of how to use the project:
-```python
-import project
-
-project.do_something()
-```
