@@ -23,17 +23,8 @@ Subirà-Cribillers, M., Solé-Casaramona, J., Lladós, J., Casas-Roma, J. (2025)
 
 ## Files Overview
 
-- `data_duplication.py`
-This script is used to augment the dataset by generating additional data points. The goal is to increase the dataset size for better generalization of the model.
-
-- `graph_saving.py`
-This script processes raw data to generate graph representations. It includes methods for thresholding, sparsification, and salience computation to extract meaningful graph structures from the data.
-
-- `embeddings.py`
-This script generates node embeddings from the created graphs. It extracts graph features and saves them in a structured format for later use in model training.
-
-- `data_combination.py`
-This script combines all the generated embeddings into a single dataset. The output file serves as input to the GNN model.
-
-- `final_model.py`
-This script implements the final Graph Neural Network (GNN) model. It loads the preprocessed data, trains a GNN model using PyTorch Geometric, and evaluates the classification performance.
+- `data_duplication.py`: This script is used to augment the dataset by generating additional data points. The goal is to increase the dataset size for better generalization of the model.
+- `graph_saving.py`: This script processes raw data to generate graph representations. It includes methods for thresholding, sparsification, and salience computation to extract meaningful graph structures from the data.
+- `embeddings.py`: This script generates node embeddings from the created graphs. It extracts graph features and saves them in a structured format for later use in model training.
+- `data_combination.py`: This script combines all the generated embeddings into a single dataset. The output file serves as input to the GNN model.
+- `final_model.py`: This script implements the final Graph Neural Network (GNN) model. It loads the preprocessed data, trains a GNN model using PyTorch Geometric, and evaluates the classification performance.
